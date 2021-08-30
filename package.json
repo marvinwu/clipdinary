@@ -1,0 +1,64 @@
+{
+  "_from": "alfredinary",
+  "_id": "alfredinary@0.13.2",
+  "_inBundle": false,
+  "_integrity": "sha512-S6lzP4LaodaOAGO2NljOBvYIg3sv+X0gcmpt8vw1QiIHnHmeDMcAOhsbJWBDyRcGVOFQdgJN/NVMa1ILYxQVyw==",
+  "_location": "/alfredinary",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "alfredinary",
+    "name": "alfredinary",
+    "escapedName": "alfredinary",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/alfredinary/-/alfredinary-0.13.2.tgz",
+  "_shasum": "af0c4753a83c67c7fd2250a0142fc3d1d4c7a2aa",
+  "_spec": "alfredinary",
+  "_where": "/Users/marvinwu/Code/urban_spring/lib-lambda-iot-worker/packages/alert-processor",
+  "author": {
+    "name": "Urban Sanden",
+    "email": "hej@urre.me",
+    "url": "https://urre.me"
+  },
+  "bugs": {
+    "url": "https://github.com/urre/alfredinary/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "alfy": "^0.10.0",
+    "cloudinary": "^1.25.0",
+    "dotenv": "^8.2.0"
+  },
+  "deprecated": false,
+  "description": "Take screenshot, upload to Cloudinary. Get back https image link to clipboard.",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "homepage": "https://github.com/urre/alfredinary#readme",
+  "keywords": [
+    "npm",
+    "screenshot",
+    "cloudinary",
+    "alfred",
+    "alfred-workflow",
+    "workflow",
+    "alfy"
+  ],
+  "main": "index.js",
+  "name": "alfredinary",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urre/alfredinary.git"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/alfy/init.js"
+  },
+  "version": "0.13.2"
+}
